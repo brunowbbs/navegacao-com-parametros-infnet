@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+    font-family: "Lato", sans-serif;
+}
+
+input {
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    border: 1px solid #999;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 150px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    border: 1px solid #999;
+    padding: 10px;
+    font-size: 1rem;
+    resize: none;
+    max-width: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
